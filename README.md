@@ -7,8 +7,13 @@ Raspbian BusterにDockerをインストールするためのスクリプト
 2. 起動したらログインし、以下をターミナルから実行する
 
 ```sh
-sudo apt-get update && sudo apt-get install -y git
-git clone https://github.com/led-sudare/setup_pidocker.git
-cd setup_pidocker
-./setup_docker.sh
+wget -O setup.sh https://bit.ly/2JE2fHl
+chmod +xsetup.sh
+./setup.sh
+```
+
+3. 動作確認。以下のコマンドでエラーが表示されなければOK
+```sh
+sudo docker --version
+sudo docker ps
 ```
