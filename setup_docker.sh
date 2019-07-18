@@ -1,8 +1,5 @@
 #!/bin/bash -eu
 
-sudo systemctl enable ssh
-sudo systemctl start ssh
-
 mkdir _tmp_docker_install
 cd _tmp_docker_install/
 wget https://download.docker.com/linux/debian/dists/buster/pool/stable/armhf/containerd.io_1.2.5-1_armhf.deb
