@@ -8,7 +8,7 @@ Raspbian BusterにDockerをインストールするためのスクリプト
 
 ```sh
 wget -O setup.sh https://bit.ly/2JE2fHl
-chmod +xsetup.sh
+chmod +x setup.sh
 ./setup.sh
 ```
 
